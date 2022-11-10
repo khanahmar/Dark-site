@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&display=swap");
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  /* background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/rm380-02.jpg); */
+  background-image: url("https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTB8fGVtYWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 70px;
+  background-color: rgb(255, 247, 6);
+  padding: 10px;
+}
+
+.btn {
+  margin-right: 40px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 30px;
+}
+
+ul li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding-left: 17px;
+  padding-right: 17px;
+  transition: 0.3s;
+}
+
+.a:hover {
+  color: rgb(156, 156, 156);
+}
+
+.man-image {
+  margin-left: -800px;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 600px;
+}
+.image-man-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  margin-top: 100px;
+  font-size: 70px;
+  background-color: rgb(248, 218, 85);
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
+.sumit-input {
+  border: none;
+  width: 100%;
+  max-width: 150px;
+  margin-top: 50px;
+  margin-left: 170px;
+  color: rgb(255, 255, 255);
+  height: 53px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+  background: rgb(57, 57, 57);
+  /* padding: 5px 10px; */
+  font-weight: bolder;
+  font-size: large;
+  transition: 0.3s;
+}
+
+.sumit-input:hover {
+  transform: scale(1.1);
+  background-color: rgb(92, 92, 92);
+}
+
+.logo-image {
+  width: 80px;
+}
+.log-box {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.box-center {
+  /* background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg); */
+  background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGVtYWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  width: 500px;
+  margin-top: 220px;
+  background-size: cover;
+  height: 350px;
+  border-radius: 5px;
+}
+.email-label {
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.pass-label {
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.email {
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-size: 16px;
+  font-weight: 100px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  height: 35px;
+  justify-content: center;
+}
+
+.pass {
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-size: 16px;
+  font-weight: 100px;
+  width: 100%;
+  max-width: 300px;
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  justify-content: center;
+}
+@media only screen and (max-width: 1080px) {
+  .man-image {
+    margin-left: -740px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    transition: 0.3s;
+  }
+  ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: 0.3s;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .box-center {
+    /* background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg); */
+    background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGVtYWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .man-image {
+    margin-left: -740px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    transition: 0.3s;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: 0.3s;
+  }
+  .box-center {
+    /* background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg); */
+    background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGVtYWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 1936px) {
+  .man-image {
+    margin-left: -740px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    transition: 0.3s;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .box-center {
+    /* background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg); */
+    background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGVtYWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .man-image {
+    margin-left: -740px;
+    transition: 0.3s;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .box-center {
+    /* background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg); */
+    background-image: url("https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGVtYWlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
